@@ -1,0 +1,23 @@
+name: SystemAPI
+version: 1.2.2-API
+main: de.skyfam.api.systemapi.SystemAPI
+authors:
+  - WurmliTV
+depend:
+  - LabyModAPI
+  - HeadDatabase
+description: API - Server Management, Self Posting
+website: SkyFam.de
+commands:
+  gamemode:
+    aliases:
+      - gm
+    description: Versetzt dich in einen anderen Spielmodi
+  vanish:
+    aliases:
+      - v
+    description: Spiele unfair Verstecken mit den Spielern
+  language:
+    aliases:
+      - lang
+    description: Wechsle deine Sprache
